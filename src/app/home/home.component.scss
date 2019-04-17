@@ -1,0 +1,29 @@
+main{
+  width: 90%;
+  margin: auto;
+  padding: 20px 15px;
+
+  .banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div{
+      width: 26%;
+      margin-right: 10px;
+      img{
+        height: 200px;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+
+        &:hover{
+          transform: translateY(-10px);
+          transition: 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+<main>
+  <section class="banners">
+    <div *ngFor="let banner of banners">
+      <img [src]="banner.src" [alt]="banner.alt" />
+    </div>
+  </section>
+  <section class="product-area">
+    <app-product-list [fruits]="items"></app-product-list>
+  </section>
+</main>

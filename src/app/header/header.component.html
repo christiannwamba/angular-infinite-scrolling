@@ -1,0 +1,14 @@
+<header>
+    <div class="brand">
+      <img src="/assets/images/logo.svg" alt="avatar">
+      <h5>Just fruits</h5>
+    </div>
+    <div class="nav">
+      <ul>
+        <li>
+          <img src="/assets/images/cart.svg" alt="cart">
+          <span class="badge" *ngIf="cart.length > 0">{{ cart.length }}</span>
+        </li>
+      </ul>
+    </div>
+  </header>
